@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nav practice</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        .navbar {
+            background-color: grey;
+            border: solid 1px black;
+        }
+
+        .navbar ul {
+            overflow: auto;
+        }
+
+        .navbar li {
+            list-style: none;
+            font-size: medium;
+            float: left;
+            margin-left: 69px;
+            margin-top: 29px;
+            margin-bottom: 0px;
+
+        }
+
+        .navbar li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .navbar li a:hover {
+            color: chartreuse;
+            background-color: aquamarine;
+
+        }
+
+        #logo {
+            border-radius: 34px;
+            height: 69px;
+            width: 74px;
+            margin-top: -21px;
+            margin-left: -36px;
+            margin-bottom: -1px;
+
+        }
+
+        .search {
+            float: right;
+            padding-top:29px;
+            padding-right:20px;
+
+        }
+        #GYMHEAD{
+           font-size: 26px;
+            margin-left:7.5px;
+            margin-top:25px;
+        }
+        .main{
+          background-image:url("https://images.unsplash.com/photo-1623874106686-5be2b325c8f1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80");
+         
+          background-repeat: no-repeat;
+          background-size: 1550px 10000px;
+        }
+
+        
+    </style>
+</head>
+
+<body>
+    <nav class="navbar">
+
+        <ul>
+            <li>
+                <div class="logonav">
+                    <img id="logo"
+                        src="https://png.pngtree.com/png-vector/20191018/ourmid/pngtree-gym-logo-png-image_1824195.jpg"
+                        alt="logo">
+                    
+                </div>
+            </li>
+            <li id="GYMHEAD">GYMKHANA</li>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="#">CONTACT</a></li>
+            <LI><a href="#">login</a></lI>
+            <div class="search">
+                <input id="box" type="text" value="search">
+                <button id="button" type="button">search</button>
+            </div>
+
+        </ul>
+
+    </nav>
+    <main class="main">
+        
+    </main>
+</body>
+
+</html>
